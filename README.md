@@ -18,6 +18,14 @@ Components of brain model, based on known anatomical and functional features of 
 - motor cortex (MC)
 - visaul cortex (VC)
 
+<br/>
+
+![alt text](https://github.com/davidsamu/Rat-maze-navigation/blob/master/docs/schematics/full_model.png)
+
+<br/>
+
+Places cells in HC are modelled as integrating visual and proprioceptive sensory information (evidence) received from VC and GS. Potential actions (movements) are sampled by PFC and evaluated by vS and dlS before execution.
+
 Task settings to test navigation strategies and learning methods:
 - Learned environment and rewards
 - Learned environment but revalued rewards
