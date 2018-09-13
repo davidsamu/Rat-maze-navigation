@@ -41,7 +41,4 @@ Maze can be procedurally generated or pre-set (example below, rectangles: locati
 
 <br/>
 
-![alt text](https://github.com/davidsamu/Rat-maze-navigation/blob/master/results/village/village.png)
-
-<br/>
-
+<img src="https://github.com/davidsamu/Rat-maze-navigation/blob/master/results/village/village.png" width="700">
