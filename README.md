@@ -1,5 +1,5 @@
 # Rat-maze-navigation
-Maze navigation by model-free choice (habitual action selection) and imagination-based (deliberate / explicite) planning using a multi-component brain model 
+Maze navigation by model-free choice (habitual action selection) and imagination-based (deliberate / explicit pre-play) planning using a multi-component brain model 
 
 Two main modes of model for reward-seeking navigation:
 
@@ -24,7 +24,7 @@ Components of brain model, based on known anatomical and functional features of 
 
 <br/>
 
-Places cells in HC are modelled as integrating visual and proprioceptive sensory information (evidence) received from VC and GS. Potential actions (movements) are sampled by PFC and evaluated by vS and dlS before execution.
+Places cells in HC are modelled as integrating visual and proprioceptive sensory information (evidence) received from VC and GS (Bayesian inference by evidence integration). Accumulating path integration noise in GS is being continuously corrected by top-down HC feedback during navigation. Potential actions (movements) are sampled by PFC and evaluated by vS and dlS before execution.
 
 Task settings to test navigation strategies and learning methods:
 - Learned environment and rewards
@@ -36,3 +36,12 @@ Task settings to test navigation strategies and learning methods:
 - Modified environment (obstacles added), revalued rewards
 - Modified environment (shortcuts and obstacles added), revalued reward
 - Unknown environment and rewards
+
+Maze can be procedurally generated or pre-set (example below, rectangles: locations, links: paths, numbers in arrows: Q-values):
+
+<br/>
+
+![alt text](https://github.com/davidsamu/Rat-maze-navigation/blob/master/results/village/village.png)
+
+<br/>
+
