@@ -20,7 +20,7 @@ Components of brain model, based on known anatomical and functional features of 
 
 <br/>
 
-![alt text](https://github.com/davidsamu/Rat-maze-navigation/blob/master/docs/schematics/full_model.png)
+<img src="https://github.com/davidsamu/Rat-maze-navigation/blob/master/docs/schematics/full_model.png" width="500">
 
 <br/>
 
@@ -42,3 +42,11 @@ Maze can be procedurally generated or pre-set (example below, rectangles: locati
 <br/>
 
 <img src="https://github.com/davidsamu/Rat-maze-navigation/blob/master/results/village/village.png" width="700">
+
+Layout of maze (position of each identified location) can be learned and stored in the connectivity between GS and HC from random initialization through random navigation:
+
+<img src="https://github.com/davidsamu/Rat-maze-navigation/blob/master/results/learning/village/gs_hc_traj.png" width="700">
+
+For more results, see:
+
+[Samu, D., Moreno-Bote, R. Hippocampal Location Representation Supporting Imagination-Based and Habitual Decision Making Systems. 7th Annual Conference of Barcelona Computational, Cognitive and Systems Neuroscience (BARCCSYN), 24-25 May 2018, Barcelona, Spain.](http://www.davidsamu.com/samu_Barccsyn_2018_poster.pdf?attredirects=0&d=1)
